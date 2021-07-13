@@ -1,0 +1,17 @@
+body{
+    background-image:url("../img/fondoCol.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+   
+}
+.container{
+    background-color: blanchedalmond;
+    color: brown;
+}
+#mapa{
+    width: 90%;
+    height: 80%;
+}
+
+    

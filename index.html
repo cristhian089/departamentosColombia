@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="./jquery/jquery-3.6.0.min.js"></script>
+    <script src="./javascript/miJs.js"></script>
+    <title>Departamentos de colombia</title>
+  </head>
+  <body>
+    <div class="container">
+
+    <h1>Departamentos de colombia</h1>
+
+        <div class="row">
+            <div class="col-8">
+                <p class="font-monospace">ingresa el numero del departamento para buscar la capital.</p>
+                <div class="mb-3 row">
+                    <label for="departamento" class="col-sm-2 col-form-label font-monospace">departamento</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="Departamento">
+                    </div>
+                  </div>
+                <div class="mb-3 row">
+                    <label for="buscar" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                      <input type="button" class="btn btn-primary mb-3" id="buscar" value="buscar">
+                    </div>
+                  </div>
+                <p id="respuesta" class="font-monospace"></p>
+                <a id="urlCapital" href=""></a>
+                  <hr>
+
+                <img id="mapa" class="rounded float-start" src="img/mapa.png" alt="">
+
+            </div>
+
+
+            <div class="col-4">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Departamento</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Amazonas</td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Antioquia</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Arauca</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Atlantico</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Bolivar</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Boyaca</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Caldas</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Caqueta</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Casanare</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Cauca</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>Cesar</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td>Choco</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">13</th>
+                        <td>Cordoba</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">14</th>
+                        <td>Cundinamarca</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">15</th>
+                        <td>Guainia</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">16</th>
+                        <td>Guaviare</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">17</th>
+                        <td>Huila</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">18</th>
+                        <td>La guajira</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">19</th>
+                        <td>Magdalena</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">20</th>
+                        <td>Meta</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">21</th>
+                        <td>Nariño</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">22</th>
+                        <td>Norte del santander</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">23</th>
+                        <td>Putumayo</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">24</th>
+                        <td>Quindio</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">25</th>
+                        <td>Risaralda</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">26</th>
+                        <td>San Andres y Providencia</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">27</th>
+                        <td>Santander</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">28</th>
+                        <td>Sucre</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">29</th>
+                        <td>Tolima</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">30</th>
+                        <td>Valle del cauca</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">31</th>
+                        <td>Vaupes</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">32</th>
+                        <td>Vichada</td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
